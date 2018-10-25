@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 120px 0 100px 0;
+    border-bottom: 1px solid #cecdce;
+}
+
+.header__title {
+    font-family: Arial,serif;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #434244;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-family: Arial,serif;
+    font-size: 27px;
+    font-weight: normal;
+    color: #434244;
+    margin: 15px 0 0 0;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts__item {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Arial,serif;
+    font-size: 17px;
+}
+
+.contacts__link {
+    color: #9c9da0;
+    text-decoration: none;
+}
+
+.header__contacts {
+    margin-top: 30px;
+}
+
+.main {
+    padding: 40px 0 510px 0;
+    font-size: 0;
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main__left {
+    width: 425px;
+}
+
+.main__right {
+    box-sizing: border-box;
+    width: 825px;
+    padding-left: 65px;
+}
+
+.main__avatar {
+    margin-bottom: 35px;
+}
+
+.personal-info__title, .main__right__title {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 35px;
+    background-color: #f2d629;
+    font-family: Arial,serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.personal-info__content {
+    margin-top: 35px;
+}
+
+.personal-info__text {
+    margin: 0;
+    font-family: Arial,serif;
+    font-size: 18px;
+    color: #434244;
+}
+
+.personal-info__text_bold {
+    font-weight: bold;
+}
+.experience_items{
+    margin-top:42px;
+    padding:0;
+    list-style: none;
+}
+.experience_item {
+    margin-top: 30px;
+    font-family: Arial,serif;
+
+}
+.data{
+    margin:0;
+    padding:0;
+    color:#8c8c8c;
+    font-family: Arial, serif;
+    font-size: 19px;
+
+}
+.work{
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    font-family:Arial, serif;
+    font-size: 19px;
+    color:#222222;
+}
+.name_link{
+    margin-top:5px;
+    padding:0;
+    display: inline-block;
+    font-family:Arial, serif;
+    font-size: 20px;
+    color:#222222;
+}
+.company__link{
+    margin:0;
+    padding:0;
+    font-family:Arial, serif;
+    font-size: 20px;
+    color:#222222;
+    text-decoration: none;
+}
+.description{
+
+    margin:0;
+    padding:0;
+    font-size: 17px;
+    color:#8c8c8c;
+
+}
+.description_text{
+margin:0;
+    padding:0;
+    font-size: 17px;
+    font-family: Arial, serif;
+    line-height: 31px;
+    color: #ababab;
+
+}
+.footer {
+    height: 45px;
+    background-color: #e8c734;
+}

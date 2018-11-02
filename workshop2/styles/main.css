@@ -1,0 +1,65 @@
+body{
+
+}
+.main{
+    width:737px;
+    height:937px;
+    margin-left:50px;
+}
+.main_title{
+font-size:42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    background-color:#e8c734;
+    padding:21px 65px 24px 41px;
+    display:inline-block;
+}
+
+.skills{
+    margin-left:0;
+    padding:0;
+    margin-top:0;
+}
+.skill{
+    margin-top:60px;
+    list-style: none;
+}
+.skill_title{
+    margin-top:0;
+    font-size: 31px;
+    line-height: 31px;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+}
+.progress{
+    width: 620px;
+    height: 28px;
+    background-color: rgba(255,255,255,0.6);
+    border: 0.5px solid #bbbcbe;
+    position:relative;
+}
+.progress::after{
+    content:"";
+    height: 28px;
+    background-color: #808183;
+    position:absolute;
+}
+.communication::after{
+    width: 458px;
+}
+.creativity::after{
+    width: 547px;
+}
+.teamwork::after{
+    width: 458px;
+}
+.organization::after{
+    width: 547px;
+}
+
+.leadership::after{
+    width: 458px;
+}
+.teamplayer::after{
+    width: 547px;
+}

@@ -1,0 +1,45 @@
+
+.header{
+    margin:0;
+    width:1132px;
+    padding-top: 64px;
+    padding-left:62px;
+}
+._header_main_title{
+    vertical-align: top;
+    font-family: Inconsolata, monospace;
+    font-size:23px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing:7px;
+    display: inline-block;
+    line-height:23px;
+    margin:0;
+    padding:0;
+}
+.header_titles{
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+.header_titles_item{
+    margin:0 ;
+    font-size:14px;
+    padding: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Arial, monospace;
+}
+.lifestyle{
+    margin-left:357px;
+}
+.photodiary {
+    margin-left: 116px;
+}
+.music {
+    margin-left:96px;
+}
+.travel{
+    margin-left:88px;
+}

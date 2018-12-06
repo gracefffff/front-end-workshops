@@ -1,0 +1,39 @@
+.main_middle{
+    padding:0;
+    width:657px;
+    margin-left:80px;
+    margin-top:92px;
+}
+.main_title{
+    text-transform: uppercase;
+    font-size:14px;
+    color:#b4ad9e;
+    font-weight: normal;
+    font-family: Arial, monospace;
+}
+.main_subtitle{
+    margin-top:23px;
+    font-size:30px;
+    font-weight: normal;
+    font-family: Arial, serif;
+    color:#626262;
+}
+.main_top_text{
+    margin-top:30px;
+    font-size:14px;
+    font-family: Arial, monospace;
+    line-height: 24px;
+    color:#626262;
+}
+.main_middle_image{
+    margin-top:70px;
+}
+.main_bottom_text{
+    margin-top:35px;
+    font-size:14px;
+    font-family: Arial, monospace;
+    line-height: 24px;
+    color:#626262;
+    display: inline-block;
+
+}
